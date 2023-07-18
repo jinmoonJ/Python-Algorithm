@@ -1,4 +1,4 @@
-# SWEA 1210 Ladder 과제
+# SWEA 1210 Ladder
 
 T = 10
 
