@@ -13,7 +13,7 @@ for tc in range(1, T + 1):
     row = 99  # 도착지점부터 반대로 올라가기 위해서 99시작
 
     while row > 0:  # 반복은 row가 0이 되면 끝
-        if (col - 1 >= 0) and ladder[row][col - 1] == 1:  # 왼쪽 탐색 : col-1 >=0(왼쪽이 0보다 크고) ladder[row][col-1]==1(왼쪽이 1일떄)
+        if (col - 1 >= 0) and ladder[row][col - 1] == 1:  # 왼쪽 탐색 : col-1 >=0(왼쪽이 0보다 크고) ladder[row][col-1]==1(왼쪽이 1일때)
             ladder[row][col] = -1
             col -= 1  # 위치를 -1 왼쪽으로
         elif (col + 1 < 100) and ladder[row][col + 1] == 1:  # 오른쪽 탐색
